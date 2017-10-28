@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="50x-tN-w3e">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2up-Ia-Fkj">
+            <objects>
+                <viewController id="ZsP-NS-SWj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CIK-7O-X8O"/>
+                        <viewControllerLayoutGuide type="bottom" id="QQJ-MB-dcu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TFV-2r-S2m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PIW-Z3-5fs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97d-Pr-oIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1188" y="1124"/>
+        </scene>
+        <!--安心购-->
+        <scene sceneID="4X3-Ab-2nY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="50x-tN-w3e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="安心购" image="icon" id="wmu-vu-OBI"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vM4-AC-znR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZsP-NS-SWj" kind="relationship" relationship="rootViewController" id="BU2-g6-zyg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Qp-lu-qTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="1102"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="16" height="16"/>
+    </resources>
+</document>
